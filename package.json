@@ -31,6 +31,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "sirv-cli": "^1.0.0",
-    "svelte-fa": "^2.2.1"
+    "svelte-fa": "^2.2.1",
+    "svelte-meta-tags": "^1.0.4"
   }
 }
