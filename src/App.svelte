@@ -5,6 +5,10 @@
   export let speed;
 </script>
 
+<svelte:head>
+  <title>Respire - Breathing App</title>
+</svelte:head>
+
 <main>
   <Header />
   <Animation {speed} />
@@ -28,7 +32,7 @@
   }
 
   h2 {
-    font-family: "Baloo 2";
+    font-family: "Work Sans", sans-serif;
     font-size: 1.5rem;
   }
 </style>

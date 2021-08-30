@@ -31,27 +31,28 @@
 
   /* animation speed */
   .slowest {
-    animation: grow ease-in-out 9s infinite;
+    animation: grow ease-in-out 6.5s infinite;
     animation-direction: alternate;
   }
 
   .slower {
-    animation: grow ease-in-out 8s infinite;
+    animation: grow ease-in-out 6s infinite;
     animation-direction: alternate;
   }
 
   .slow {
-    animation: grow ease-in-out 7s infinite;
-    animation-direction: alternate;
-  }
-
-  .normal {
     animation: grow ease-in-out 5.5s infinite;
     animation-direction: alternate;
   }
 
+  .normal {
+    animation: grow ease-in-out 4.5s infinite;
+    animation-delay: 0s;
+    animation-direction: alternate;
+  }
+
   .fast {
-    animation: grow ease-in-out 4s infinite;
+    animation: grow ease-in-out 3.5s infinite;
     animation-direction: alternate;
   }
 
@@ -61,7 +62,7 @@
   }
 
   .fastest {
-    animation: grow ease-in-out 1s infinite;
+    animation: grow ease-in-out 2.5s infinite;
     animation-direction: alternate;
   }
 

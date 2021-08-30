@@ -17,6 +17,7 @@
     "faster",
     "fastest",
   ];
+
   function handleChange(e) {
     speed = e.srcElement.value;
   }
@@ -83,13 +84,13 @@
   }
 
   .speed-label {
-    font-family: "Baloo 2";
+    font-family: "Work Sans", sans-serif;
     font-weight: 700;
     font-size: 1rem;
   }
 
   .input-wrapper {
-    width: 60%;
+    width: 45%;
   }
 
   /* range input styling */

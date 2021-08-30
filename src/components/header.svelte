@@ -19,9 +19,9 @@
       <button class="menuButton" on:click={() => (theme = switchTheme)}>
         <Fa icon={faMoon} style="font-size: 1.6rem;" /></button
       >
-      <button class="menuButton"
+      <!-- <button class="menuButton"
         ><Fa icon={faBars} style="font-size: 2rem;" /></button
-      >
+      > -->
     </nav>
   </div>
 </main>
@@ -61,7 +61,8 @@
   }
 
   h1 {
-    font-family: "Baloo 2";
+    font-family: "Work Sans", "sans-serif";
+    font-style: bold;
     font-size: 2.5rem;
   }
 </style>
