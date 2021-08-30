@@ -85,7 +85,7 @@
 
   .speed-label {
     font-family: "Work Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1rem;
   }
 

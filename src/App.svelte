@@ -8,6 +8,12 @@
 
 <svelte:head>
   <title>Respire - Breathing App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;800&display=swap"
+    rel="stylesheet"
+  />
 </svelte:head>
 
 <MetaTags
@@ -62,5 +68,6 @@
   h2 {
     font-family: "Work Sans", sans-serif;
     font-size: 1.5rem;
+    font-weight: 800;
   }
 </style>

@@ -62,7 +62,7 @@
 
   h1 {
     font-family: "Work Sans", "sans-serif";
-    font-style: bold;
     font-size: 2.5rem;
+    font-weight: 800;
   }
 </style>
