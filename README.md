@@ -1,4 +1,4 @@
-# respire app
+# Respire app
 
 This is a simple tool for breathing exercises. Simply adjust your breath to the pulsating circle.
 
