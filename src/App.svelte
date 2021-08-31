@@ -7,7 +7,34 @@
 </script>
 
 <svelte:head>
-  <title>Respire - Breathing App</title>
+  <!-- Primary Meta Tags -->
+  <title>Respire - Breathing app</title>
+  <meta name="title" content="Respire - Breathing app" />
+  <meta
+    name="description"
+    content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
+  />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.respire.site/" />
+  <meta property="og:title" content="Respire - Breathing app" />
+  <meta
+    property="og:description"
+    content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
+  />
+  <meta property="og:image" content="" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.respire.site/" />
+  <meta property="twitter:title" content="Respire - Breathing app" />
+  <meta
+    property="twitter:description"
+    content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
+  />
+  <meta property="twitter:image" content="" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
