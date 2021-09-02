@@ -80,7 +80,19 @@
 <style>
   :global(body) {
     padding: 0px;
-    background-color: #fff2f0;
+    background-color: var(--bg-color);
+  }
+
+  :root {
+    --bg-color: #fff2f0;
+    --text-color: #514444;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #00080f;
+      --text-color: #aebbbb;
+    }
   }
 
   main {
@@ -90,6 +102,7 @@
     justify-content: space-around;
     flex-flow: column;
     text-align: center;
+    color: var(--text-color);
   }
 
   h2 {

@@ -16,9 +16,9 @@
   <div class="container">
     <h1>Respire</h1>
     <nav class="menu-container">
-      <button class="menuButton" on:click={() => (theme = switchTheme)}>
+      <!-- <button class="menuButton" on:click={() => (theme = switchTheme)}>
         <Fa icon={faMoon} style="font-size: 1.6rem;" /></button
-      >
+      > -->
       <!-- <button class="menuButton"
         ><Fa icon={faBars} style="font-size: 2rem;" /></button
       > -->
@@ -27,14 +27,14 @@
 </main>
 
 <style>
-  :global(.dark) {
+  /* :global(.dark) {
     background: #00080f;
     color: #aebbbb;
   }
 
   :global(.dark .menuButton) {
     filter: invert(100%);
-  }
+  } */
 
   button {
     cursor: pointer;

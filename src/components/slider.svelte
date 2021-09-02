@@ -19,18 +19,18 @@
   ];
 
   function handleChange(e) {
-    speed = e.srcElement.value;
+    speed = parseInt(e.srcElement.value);
   }
 
   function increaseSpeed() {
     if (speed < 6) {
-      speed = speed + 1;
+      speed += 1;
     }
   }
 
   function decreaseSpeed() {
     if (speed > 0) {
-      speed = speed - 1;
+      speed -= 1;
     }
   }
 </script>
@@ -58,10 +58,10 @@
 </main>
 
 <style>
-  :global(.dark .speedButton) {
+  /* :global(.dark .speedButton) {
     background: #00080f;
     box-shadow: none;
-  }
+  } */
 
   main {
     display: flex;
@@ -75,8 +75,8 @@
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
-    background-color: #fff7f0;
-    box-shadow: 20px 20px 60px #999490, -20px -20px 60px #ffffff;
+    background-color: var(--bg-color);
+    box-shadow: 20px 20px 60px #999490, -20px -20px 60px var(--bg-color);
     border: none;
     cursor: pointer;
     font-weight: 900;
