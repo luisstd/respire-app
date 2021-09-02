@@ -6,7 +6,6 @@ This is a simple tool for breathing exercises. Simply adjust your breath to the 
 
 - Automatic dark mode
 - Adjustable animation speed
-- Works offline
 
 ## Preview
 
