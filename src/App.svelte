@@ -14,10 +14,6 @@
     name="description"
     content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
   />
-  <meta
-    name="google-site-verification"
-    content="9ECUBWEAvuUSqy_zMfZy07zQ58KKBXQzQQTYZLF0hSE"
-  />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
