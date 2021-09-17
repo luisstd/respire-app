@@ -75,12 +75,11 @@
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
-    background-color: var(--bg-color);
-    box-shadow: 20px 20px 60px #999490, -20px -20px 60px var(--bg-color);
+    background-color: var(--button-color);
+    color: var(--bg-color);
     border: none;
     cursor: pointer;
     font-weight: 900;
-    color: #9c6baa;
   }
 
   .speed-label {

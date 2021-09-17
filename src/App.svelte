@@ -86,12 +86,14 @@
   :root {
     --bg-color: #fff2f0;
     --text-color: #514444;
+    --button-color: #9c6baa;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
       --bg-color: #00080f;
       --text-color: #aebbbb;
+      --button-color: #9c6baa;
     }
   }
 
