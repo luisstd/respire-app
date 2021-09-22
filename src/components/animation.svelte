@@ -34,7 +34,7 @@
     animation: grow 6.5s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.2, 1);
     animation-play-state: running;
   }
 
@@ -42,7 +42,7 @@
     animation: grow 6s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.2, 1);
     animation-play-state: running;
   }
 
@@ -50,15 +50,15 @@
     animation: grow 5.5s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.2, 1);
     animation-play-state: running;
   }
 
   .normal {
-    animation: grow 4.5s infinite;
+    animation: grow 4.6s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.2, 1);
     animation-play-state: running;
   }
 
@@ -66,7 +66,7 @@
     animation: grow 3.5s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.2, 1);
     animation-play-state: running;
   }
 
@@ -74,7 +74,7 @@
     animation: grow 3s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.2, 1);
     animation-play-state: running;
   }
 
@@ -82,7 +82,7 @@
     animation: grow 2.5s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.2, 1);
     animation-play-state: running;
   }
 
