@@ -8,7 +8,7 @@
 
 <svelte:head>
   <!-- Primary Meta Tags -->
-  <title>Respire - Breathing app</title>
+  <title>Respire - Breathing App</title>
   <meta name="title" content="Respire - Breathing app" />
   <meta
     name="description"
