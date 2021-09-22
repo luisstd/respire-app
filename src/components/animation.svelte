@@ -31,39 +31,59 @@
 
   /* animation speed */
   .slowest {
-    animation: grow ease-in-out 6.5s infinite;
+    animation: grow 6.5s infinite;
+    animation-delay: 0s;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-play-state: running;
   }
 
   .slower {
-    animation: grow ease-in-out 6s infinite;
+    animation: grow 6s infinite;
+    animation-delay: 0s;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-play-state: running;
   }
 
   .slow {
-    animation: grow ease-in-out 5.5s infinite;
+    animation: grow 5.5s infinite;
+    animation-delay: 0s;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-play-state: running;
   }
 
   .normal {
-    animation: grow ease-in-out 4.5s infinite;
+    animation: grow 4.5s infinite;
     animation-delay: 0s;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-play-state: running;
   }
 
   .fast {
-    animation: grow ease-in-out 3.5s infinite;
+    animation: grow 3.5s infinite;
+    animation-delay: 0s;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-play-state: running;
   }
 
   .faster {
-    animation: grow ease-in-out 3s infinite;
+    animation: grow 3s infinite;
+    animation-delay: 0s;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-play-state: running;
   }
 
   .fastest {
-    animation: grow ease-in-out 2.5s infinite;
+    animation: grow 2.5s infinite;
+    animation-delay: 0s;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.65, 0.08, 0.18, 1);
+    animation-play-state: running;
   }
 
   /* animation type */
