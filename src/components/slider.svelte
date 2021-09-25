@@ -3,10 +3,6 @@
   import { faPlus } from "@fortawesome/free-solid-svg-icons";
   import { faMinus } from "@fortawesome/free-solid-svg-icons";
 
-  import DarkMode from "svelte-dark-mode";
-  let theme;
-  $: document.body.className = theme; // "dark" or "light
-
   export let speed = 3;
   export let animations = [
     "slowest",
@@ -36,7 +32,6 @@
 </script>
 
 <main>
-  <DarkMode bind:theme />
   <button class="speedButton" on:click={decreaseSpeed}>
     <Fa icon={faMinus} style="font-size: 1.5rem;" />
   </button>

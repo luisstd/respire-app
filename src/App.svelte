@@ -23,52 +23,22 @@
     property="og:description"
     content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
   />
-  <meta property="og:image" content="" />
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://www.respire.site/" />
   <meta property="twitter:title" content="Respire - Breathing app" />
   <meta
     property="twitter:description"
     content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
   />
-  <meta property="twitter:image" content="" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;800&display=swap"
     rel="stylesheet"
   />
 </svelte:head>
-
-<MetaTags
-  title="Respire - Breathing app"
-  description="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
-  canonical="https://www.respire.site/"
-  openGraph={{
-    url: "https://www.respire.site/",
-    title: "Respire - Breathing app",
-    description:
-      "Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle.",
-    images: [
-      {
-        url: "./img/preview-01.png",
-        width: 800,
-        height: 600,
-        alt: "Respire App",
-      },
-      {
-        url: "./img/preview-02.png",
-        width: 900,
-        height: 800,
-        alt: "Respire App",
-      },
-    ],
-    site_name: "Respire App",
-  }}
-/>
 
 <main>
   <Header />
