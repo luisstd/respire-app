@@ -36,7 +36,7 @@
     content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
   />
 
-  <!-- Twitter -->
+  <!-- Open Graph / Twitter -->
   <meta property="twitter:url" content="https://www.respire.site/" />
   <meta property="twitter:title" content="Respire - Breathing App" />
   <meta
@@ -45,12 +45,19 @@
   />
   <meta name="twitter:card" content="summary_large_image" />
 
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;800&display=swap"
     rel="stylesheet"
   />
+
+  <!-- Plausible Stats -->
+  <script
+    defer
+    data-domain="respire.site"
+    src="https://plausible.io/js/plausible.js"></script>
 </svelte:head>
 
 <main>
