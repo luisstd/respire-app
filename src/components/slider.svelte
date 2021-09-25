@@ -32,7 +32,7 @@
 </script>
 
 <main>
-  <button class="speedButton" on:click={decreaseSpeed}>
+  <button aria-label="slower" class="speedButton" on:click={decreaseSpeed}>
     <Fa icon={faMinus} style="font-size: 1.5rem;" />
   </button>
   <div class="input-wrapper">
@@ -47,7 +47,7 @@
     />
     <label class="speed-label" for="speed">{animations[speed]}</label>
   </div>
-  <button class="speedButton" on:click={increaseSpeed}>
+  <button aria-label="faster" class="speedButton" on:click={increaseSpeed}>
     <Fa icon={faPlus} style="font-size: 1.5rem;" />
   </button>
 </main>
