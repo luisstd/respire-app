@@ -53,15 +53,9 @@
 </main>
 
 <style>
-  /* :global(.dark .speedButton) {
-    background: #00080f;
-    box-shadow: none;
-  } */
-
   main {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
   }
 
   button {
@@ -260,7 +254,6 @@
     border-radius: 15px;
     cursor: pointer;
     margin-top: 0px;
-    /*Needed to keep the Edge thumb centred*/
   }
   input[type="range"]:focus::-ms-fill-lower {
     background: #333333;
