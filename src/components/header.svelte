@@ -1,21 +1,10 @@
 <script lang="ts">
-  import Fa from "svelte-fa";
-  import { faMoon } from "@fortawesome/free-solid-svg-icons";
-  import { faSun } from "@fortawesome/free-solid-svg-icons";
-  import { faBars } from "@fortawesome/free-solid-svg-icons";
 </script>
 
 <main>
   <div class="container">
     <h1>Respire</h1>
-    <nav class="menu-container">
-      <!-- <button class="menuButton" on:click={() => (theme = switchTheme)}>
-        <Fa icon={faMoon} style="font-size: 1.6rem;" /></button
-      > -->
-      <!-- <button class="menuButton"
-        ><Fa icon={faBars} style="font-size: 2rem;" /></button
-      > -->
-    </nav>
+    <nav class="menu-container" />
   </div>
 </main>
 

@@ -2,7 +2,6 @@
   import Header from "./components/header.svelte";
   import Slider from "./components/slider.svelte";
   import Animation from "./components/animation.svelte";
-  import MetaTags from "svelte-meta-tags";
   export let speed;
 </script>
 
