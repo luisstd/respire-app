@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Respire is a basic tool for breathing exercises. ",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Respire - Breathing App",
+  "short_name": "Respire",
+  "start_url": "/"
+}

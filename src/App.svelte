@@ -57,6 +57,9 @@
     defer
     data-domain="respire.site"
     src="https://plausible.io/js/plausible.js"></script>
+
+  <!-- Webmanifest -->
+  <link rel="manifest" href="manifest.json" />
 </svelte:head>
 
 <main>
