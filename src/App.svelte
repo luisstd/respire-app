@@ -5,63 +5,6 @@
   export let speed;
 </script>
 
-<svelte:head>
-  <!-- Primary Meta Tags -->
-  <title>Respire - Breathing App</title>
-  <meta name="title" content="Respire - Breathing App" />
-  <meta
-    name="description"
-    content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
-  />
-
-  <!-- Open Graph Tags -->
-  <meta property="og:title" content="Respire - Breathing App" />
-  <meta
-    property="og:description"
-    content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
-  />
-  <meta
-    property="og:image"
-    content="https://www.respire.site/img/preview.png"
-  />
-  <meta property="og:url" content="http://www.respire.site" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.respire.site/" />
-  <meta property="og:title" content="Respire - Breathing App" />
-  <meta
-    property="og:description"
-    content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
-  />
-
-  <!-- Open Graph / Twitter -->
-  <meta property="twitter:url" content="https://www.respire.site/" />
-  <meta property="twitter:title" content="Respire - Breathing App" />
-  <meta
-    property="twitter:description"
-    content="Respire is a basic tool for breathing exercises. Simply adjust your breath to the circle."
-  />
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;800&display=swap"
-    rel="stylesheet"
-  />
-
-  <!-- Plausible Stats -->
-  <script
-    defer
-    data-domain="respire.site"
-    src="https://plausible.io/js/plausible.js"></script>
-
-  <!-- Webmanifest -->
-  <link rel="manifest" href="manifest.json" />
-</svelte:head>
-
 <main>
   <Header />
   <Animation {speed} />
