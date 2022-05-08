@@ -1,7 +1,7 @@
 {
   "background_color": "purple",
   "description": "Respire is a basic tool for breathing exercises. ",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "src": "favicon.png",
