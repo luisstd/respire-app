@@ -1,9 +1,9 @@
-import App from "./App.svelte";
-export let speed;
+import App from './App.svelte'
+export let speed:number
 
 const app = new App({
   target: document.body,
-  props: { speed },
-});
+  props: { speed }
+})
 
-export default app;
+export default app
