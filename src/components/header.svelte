@@ -28,7 +28,6 @@
   }
 
   h1 {
-    font-family: "Work Sans", "sans-serif";
     font-size: 2.5rem;
     font-weight: 800;
   }

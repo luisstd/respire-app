@@ -1,8 +1,9 @@
 <script lang="ts">
-  import Header from "./components/header.svelte";
-  import Slider from "./components/slider.svelte";
-  import Animation from "./components/animation.svelte";
-  export let speed;
+  import Header from './components/header.svelte'
+  import Slider from './components/slider.svelte'
+  import Animation from './components/animation.svelte'
+
+  export let speed: number
 </script>
 
 <main>
@@ -43,7 +44,6 @@
   }
 
   h2 {
-    font-family: "Work Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
   }

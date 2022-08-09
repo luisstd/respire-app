@@ -1,14 +1,6 @@
 <script lang="ts">
-  export let speed;
-  export let animations = [
-    "slowest",
-    "slower",
-    "slow",
-    "normal",
-    "fast",
-    "faster",
-    "fastest",
-  ];
+  export let speed: number
+  export const animations = ['slowest', 'slower', 'slow', 'normal', 'fast', 'faster', 'fastest']
 </script>
 
 <main>
