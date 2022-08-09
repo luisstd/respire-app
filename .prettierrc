@@ -1,3 +1,15 @@
 {
-  "svelteIndentScriptAndStyle": true
+  "svelteIndentScriptAndStyle": true,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "strict",
+  "singleQuote": true,
+  "printWidth": 100,
+  "proseWrap": "never",
+  "quoteProps": "as-needed",
+  "semi": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false
 }
